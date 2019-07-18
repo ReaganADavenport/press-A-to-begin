@@ -9,7 +9,7 @@ const Home = () => {
     return(
         <div className="Home">
         <h1>Welcome!</h1>
-        <img src="/bookCover.png"/>
+        <img src="../../images/bookCover.png"/>
         </div>
     )
 }
