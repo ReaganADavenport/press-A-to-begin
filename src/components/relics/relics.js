@@ -12,22 +12,21 @@ const RelicStyles = styled.ul`
     list-style-type: none;
     margin: 30px;
     padding: 0;
-
+    
     li a {
         display: flex;
         align-content: center;
         justify-content: center;
         color: white;
-    }
-`
+    }`
 
-const Relics = () => {
+const RelicsList = () => {
     return(
         <div className="Relic">
         <h1>Relics From Book1:</h1>
         <RelicStyles>
             <li>
-                <Link to={`/`}>Spear of Longinus</Link>
+                <Link to={`relics/spear`}>Spear of Longinus</Link>
             </li>
             <li>
                 <Link to={`/`}>Breastplate of St. Patrick</Link>
@@ -35,9 +34,15 @@ const Relics = () => {
             <li>
                 <Link to={`/`}>I Can't remember the rest</Link>
             </li>
+            <li>
+                <Link to={`/`}>The Lantern of St. Florian</Link>
+            </li>
+            <li>
+                <Link to={`/`}>The Cloak of St. Martin</Link>
+            </li>
         </RelicStyles>
         </div>
     )
 }
 
-export default Relics;
+export default RelicsList;

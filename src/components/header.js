@@ -12,7 +12,7 @@ const LinkStyles = styled.ul`
     a{
         align-content: space-between;
         display: flex;
-        margin: 5px;
+        margin: 0;
         padding: 5px;
     }
 `

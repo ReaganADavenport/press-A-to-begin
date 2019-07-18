@@ -9,6 +9,7 @@ const Home = () => {
         <div className="Contact">
         <h1>Contact Information</h1>
         <p>Email: someone@something.com</p>
+        <p>Twiter: TScottDavenport@twitter</p>
         <p>Something Else: Whatever</p>
         </div>
     )
