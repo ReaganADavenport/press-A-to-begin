@@ -17,6 +17,7 @@ const RelicStyles = styled.ul`
         display: flex;
         align-content: center;
         justify-content: center;
+        text-align: center;
         color: white;
     }`
 
@@ -26,19 +27,19 @@ const RelicsList = () => {
         <h1>Relics From Book1:</h1>
         <RelicStyles>
             <li>
-                <Link to={`relics/spear`}>Spear of Longinus</Link>
+                <Link to={`/relics/spear`}>Spear of Longinus</Link>
             </li>
             <li>
-                <Link to={`/`}>Breastplate of St. Patrick</Link>
+                <Link to={`/relics/breastplate`}>Breastplate of St. Patrick</Link>
             </li>
             <li>
-                <Link to={`/`}>I Can't remember the rest</Link>
+                <Link to={`/relics/lantern`}>The Lantern of St. Florian</Link>
             </li>
             <li>
-                <Link to={`/`}>The Lantern of St. Florian</Link>
+                <Link to={`/relics/cloak`}>The Cloak of St. Martin</Link>
             </li>
             <li>
-                <Link to={`/`}>The Cloak of St. Martin</Link>
+                <Link to={`/relics/lantern`}>The Lantern of St. Florian</Link>
             </li>
         </RelicStyles>
         </div>

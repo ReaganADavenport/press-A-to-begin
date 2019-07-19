@@ -6,6 +6,9 @@ import Home from './components/home/home';
 import Contact from './components/contact/contact';
 import RelicsList from './components/relics/relics';
 import Spear from './components/relics/Spear';
+import Breastplate from './components/relics/Breastplate';
+import Cloak from './components/relics/Cloak';
+import Lantern from './components/relics/Lantern';
 import Footer from './components/footer';
 
 import './App.css';
@@ -19,6 +22,9 @@ function App() {
       <Route path='/contact' exact component={Contact}/>
       <Route path='/relics' exact component={RelicsList}/>
       <Route path='/relics/spear' component={Spear}/>
+      <Route path='/relics/breastplate' component={Breastplate}/>
+      <Route path='/relics/cloak' component={Cloak}/>
+      <Route path='/relics/lantern' component={Lantern}/>
       <Footer />
       </Router>
     </div>
