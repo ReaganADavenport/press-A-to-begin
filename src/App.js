@@ -8,7 +8,10 @@ import RelicsList from './components/relics/relics';
 import Spear from './components/relics/Spear';
 import Breastplate from './components/relics/Breastplate';
 import Cloak from './components/relics/Cloak';
-import Lantern from './components/relics/Lantern';
+import Shoes from './components/relics/Shoes';
+import Hammer from './components/relics/Hammer';
+import Lance from './components/relics/Lance';
+import Shield from './components/relics/Shield';
 import Footer from './components/footer';
 
 import './App.css';
@@ -24,7 +27,10 @@ function App() {
       <Route path='/relics/spear' component={Spear}/>
       <Route path='/relics/breastplate' component={Breastplate}/>
       <Route path='/relics/cloak' component={Cloak}/>
-      <Route path='/relics/lantern' component={Lantern}/>
+      <Route path='/relics/hammer' component={Hammer}/>
+      <Route path='/relics/lance' component={Lance}/>
+      <Route path='/relics/shield' component={Shield}/>
+      <Route path='/relics/shoes' component={Shoes}/>
       <Footer />
       </Router>
     </div>

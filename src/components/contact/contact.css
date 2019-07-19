@@ -2,8 +2,15 @@
     background-color:#6CB3D1;
     margin: 0;
     padding: 5px;
+    height: 85vh;
+}
+
+.Contact h1 {
+    font-size: 25px;
+    color: white;
 }
 
 .Contact p {
     font-size: 20px;
+    color: white;
 }
