@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import StSpyri from '../../images/St_Spyridon.jpg';
+import Spear from '../../images/Spear.png';
 
 import './relics.css';
 
@@ -26,6 +28,11 @@ const Shoes = () => {
         <ul>
             <li>St. Spyridon lived most of his earthly life in Cyprus, where he also reposed in 348 AD and was buried in the Church of the Holy Apostles in Trimythous. <a href="https://orthodoxwiki.org/Spyridon_of_Trimythous"><sup>1</sup></a> </li>
             <li>When the Saracens took the island, the Cypriots opened his grave in order to remove his sacred bones to Constantinople. They found that his body had remained intact, while from the grave emanated a scent of basil, true signs of the sainthood he had shown during his lifetime. When Constantinople fell in 1453, he was transferred to Serbia, then a Corfiot elder, Georgios Kalohairetis, brought him to the island of Corfu in Greece where he is currently buried. <a href="https://orthodoxwiki.org/Spyridon_of_Trimythous"><sup>1</sup></a> </li>
+        </ul>
+
+        <ul>
+            <li>Level 4</li>
+            <Link to='/relics/shield'><img src={Spear} alt="Spear"/></Link>
         </ul>
 
         </div>

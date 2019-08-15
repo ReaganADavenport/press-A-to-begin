@@ -32,6 +32,17 @@
   }
 }
 
+.navBar a{
+  color: #205585;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.navBar img{
+  width: 100%;
+}
+
 .footer{
+  text-align: left;
   max-height: 5vh;
 }

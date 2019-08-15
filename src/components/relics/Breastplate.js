@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import StPatty from '../../images/St_Patrick.jpg';
+import Spear from '../../images/Spear.png';
 
 import './relics.css';
 
@@ -24,6 +26,11 @@ const Breastplate = () => {
                 <li>Saint Patrick was born around 390 (likely in 387), at Kilpatrick, near Dumbarton, in Scotland. His name is from the Latin Patricius, meaning high-born. His parents were part of the Christian minority of Britain; his father, Calpurnius, was a deacon, "the son of Potitus, a priest, of the village Bannavem Taburniæ." <a href="https://orthodoxwiki.org/Patrick_of_Ireland"><sup>3</sup></a> </li>
                 <li>At the age of 16, he was captured during a raiding party and taken to Ireland as a slave to herd and tend sheep. During that time, he prayed frequently and came for the first time to have a true faith in God. At age 22, he had a vision in which God told him to be prepared to leave Ireland. Soon, he escaped, walking 200 miles to a ship and returning to England. In a dream, he saw the people of Ireland calling him, "We beg you, holy youth, that you shall come and shall walk again among us." <a href="https://orthodoxwiki.org/Patrick_of_Ireland"><sup>3</sup></a> </li>
                 <li>St Patrick sought clerical training. He was ordained by St. Germanus, bishop of Auxerre. Around 430 he was ordained a bishop, after which he returned to Ireland. There, he preached the Gospel, reaching tribal chieftains, gaining their permission to teach their subjects also. During his episcopate, he was attacked for a sin he confessed to a close friend, a sin he committed "in a single hour" when only 15, but he did not suffer as a result. He established an episcopal administration and led a monastic lifestyle, establishing Christianity in Ireland. St. Patrick died at Saul, Downpatrick, Ireland, on March 17, 461. <a href="https://orthodoxwiki.org/Patrick_of_Ireland"><sup>3</sup></a> </li>
+            </ul>
+
+            <ul>
+                <li>Level 3</li>
+                <Link to='/relics/shoes'><img src={Spear} alt="Spear"/></Link>
             </ul>
         </div>
     )

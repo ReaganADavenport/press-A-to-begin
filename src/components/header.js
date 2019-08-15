@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+import Banner from '../images/Press_A_Banner.png';
+
 const LinkStyles = styled.ul`
     align-content: space-between;
     font-family: 'Amiri', serif;
@@ -21,10 +23,11 @@ const LinkStyles = styled.ul`
 const Header = () => {
     return(
         <div className="navBar">
+        <img src={Banner} alt="Banner"/>
         <LinkStyles>
-            <Link to='/'>Home</Link>
-            <Link to='/contact'>Contact</Link>
-            <Link to='/relics'>Relics</Link>
+            <Link to='/'><b>Home</b></Link>
+            <Link to='/contact'><b>Contact</b></Link>
+            <Link to='/relics'><b>Relics</b></Link>
         </LinkStyles>
         </div>
     ) ;

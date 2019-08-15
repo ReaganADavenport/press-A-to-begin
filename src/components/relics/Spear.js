@@ -2,6 +2,7 @@ import React from 'react';
 
 import StLonginus from '../../images/St_Longinus.jpg';
 
+
 import './relics.css';
 
 const Spear = () => {
@@ -22,6 +23,7 @@ const Spear = () => {
             <li>The stage was now set.  Moving swiftly, the martyr approached the awakening soldiers and revealed his true identity; “I am Longinus, the man you seek!” <a href="https://www.antiochpatriarchate.org/en/page/longinus-the-centurion/1247/"><sup>2</sup></a> </li>
             <li>Amazed and mortified by their host’s honesty, the Romans were knocked completely off balance – how could they behead a man of such noble character?  But even as they protested against the execution, this greathearted soldier insisted that they should carry out their orders to end his life.  In the end, St. Longinus and the two fellow-soldiers who had stood with him at the foot of the cross were taken to Jerusalem and beheaded, and the centurion’s destiny as a martyr for Jesus Christ was fulfilled. <a href="https://www.antiochpatriarchate.org/en/page/longinus-the-centurion/1247/"><sup>2</sup></a> </li>
         </ul>
+        
         </div>
     )
 }

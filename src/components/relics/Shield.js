@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import StMichael from '../../images/St_Michael.jpg'
+import Spear from '../../images/Spear.png';
 
 import './relics.css';
 
@@ -30,6 +32,11 @@ const Shield = () => {
             <ul>
                 <li>There are three icons of the Archangel Michael that he has personally intervened miraculously to the "authoring" of his image; Mantamados, Panormitis and Nenita. Each of these icons are different. <a href="https://orthodoxwiki.org/index.php?title=Archangel_Michael&mobileaction=toggle_view_mobile"><sup>1</sup></a> </li>
                 <li>More typically, he is represented as the Chief Commander of the Heavenly hosts, where he holds a sword in one hand; in the other he often carries either a shield, a date-tree branch, a spear, or a white banner (possibly with a scarlet cross). Some icons of the Archangel Michael (or the Archangel Gabriel) show the angel holding an orb in one hand and a staff in the other. <a href="https://orthodoxwiki.org/index.php?title=Archangel_Michael&mobileaction=toggle_view_mobile"><sup>1</sup></a> </li>
+            </ul>
+
+            <ul>
+                <li>Level 5</li>
+                <Link to='/relics/spear'><img src={Spear} alt="Spear"/></Link>
             </ul>
         </div>
     )
