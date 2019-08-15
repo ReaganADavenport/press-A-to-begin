@@ -39,6 +39,10 @@
     margin: 5px;
 }
 
+.Relic a {
+    text-decoration: none;
+}
+
 .Relic {
     background-color: #4AA7CB;
     background-size: cover;
