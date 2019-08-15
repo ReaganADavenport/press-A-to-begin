@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import StLonginus from '../../images/St_Longinus.jpg';
+import Arrow from '../../images/Spear.png';
 
 
 import './relics.css';
@@ -22,6 +24,11 @@ const Spear = () => {
             <li>Once again, however, the resourceful St. Longinus anticipated a plan against his life.  Hurrying out to the roadway, he greeted his adversaries as friends.  Without letting them know who he was, he invited them back to his own residence. He fed them lavishly, and when they fell asleep, he prepared himself for his execution by praying throughout the night and then clothing himself in spotlessly white burial garb.  As dawn approached, he drew his loyal companions to his side and instructed them to bury him at the top of a nearby hill. <a href="https://www.antiochpatriarchate.org/en/page/longinus-the-centurion/1247/"><sup>2</sup></a> </li>
             <li>The stage was now set.  Moving swiftly, the martyr approached the awakening soldiers and revealed his true identity; “I am Longinus, the man you seek!” <a href="https://www.antiochpatriarchate.org/en/page/longinus-the-centurion/1247/"><sup>2</sup></a> </li>
             <li>Amazed and mortified by their host’s honesty, the Romans were knocked completely off balance – how could they behead a man of such noble character?  But even as they protested against the execution, this greathearted soldier insisted that they should carry out their orders to end his life.  In the end, St. Longinus and the two fellow-soldiers who had stood with him at the foot of the cross were taken to Jerusalem and beheaded, and the centurion’s destiny as a martyr for Jesus Christ was fulfilled. <a href="https://www.antiochpatriarchate.org/en/page/longinus-the-centurion/1247/"><sup>2</sup></a> </li>
+        </ul>
+
+        <ul>
+            <li>Level 6</li>
+            <Link to='/relics/cloak'><img src={Arrow} alt="Spear"/></Link>
         </ul>
         
         </div>

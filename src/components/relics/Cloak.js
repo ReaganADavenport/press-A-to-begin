@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import StMartin from '../../images/St_Martin.jpg';
+import Spear from '../../images/Spear.png';
 
 import './relics.css';
 
@@ -20,6 +22,12 @@ const Cloak = () => {
             <li>In 371, Martin was acclaimed bishop of Tours. As bishop of Tours he greatly impressed the city's inhabitants with his demeanor and zeal in destroying the pagan temples. Sulpicius Severus recorded in the Vita of St. Martin many of the events of this period. Sulpicius further recorded Martin's withdrawal from the tensions of the city to the monastery, Marmoutier, that he founded across the Loire river from Tours. Here Martin led a austere life among the cave-dwelling cenobites who had gathered around him. <a href="https://orthodoxwiki.org/Martin_of_Tours"><sup>1</sup></a> </li>
             <li>St. Martin of Tours died on November 11, 397, at Candes. <a href="https://orthodoxwiki.org/Martin_of_Tours"><sup>1</sup></a> </li>
         </ul>
+
+        <ul>
+            <li>Level 7</li>
+            <Link to='/relics/hammer'><img src={Spear} alt="Spear"/></Link>
+        </ul>
+
         </div>
     )
 }
