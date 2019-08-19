@@ -12,6 +12,7 @@ import Shoes from './components/relics/Shoes';
 import Hammer from './components/relics/Hammer';
 import Lance from './components/relics/Lance';
 import Shield from './components/relics/Shield';
+import Checkout from './components/book/checkout';
 import Footer from './components/footer';
 
 import './App.css';
@@ -31,6 +32,7 @@ function App() {
       <Route path='/relics/lance' component={Lance}/>
       <Route path='/relics/shield' component={Shield}/>
       <Route path='/relics/shoes' component={Shoes}/>
+      <Route path='/shop' component={Checkout}/>
       <Footer />
       </Router>
     </div>
