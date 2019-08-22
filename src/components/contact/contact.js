@@ -11,7 +11,7 @@ const Home = () => {
         <img src={Scott} alt="Scott"/>
         
         <p>Email: scott@pressatobegin.com</p>
-        <p>FaceBook: <a href="https://m.facebook.com/Press-A-To-Begin-104593057555460/?tsid=0.23366555156080127&source=result">facebook.com/Press-A-To-Begin</a></p>
+        <p>FaceBook: <a href="https://www.facebook.com/pressatobegin/">facebook.com/Press-A-To-Begin</a></p>
         <p>Instagram: <a href="https://www.instagram.com/Pressatobegin_/">instagram.com/Pressatobegin_</a></p>
         </div>
     )
