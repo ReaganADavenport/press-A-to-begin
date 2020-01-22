@@ -10,6 +10,7 @@ const Home = () => {
         <h1>Contact Information:</h1>
         <img src={Scott} alt="Scott"/>
         
+        <p>Phone: (404)734-0975</p>
         <p>Email: scott@pressatobegin.com</p>
         <p>FaceBook: <a href="https://www.facebook.com/pressatobegin/">facebook.com/Press-A-To-Begin</a></p>
         <p>Instagram: <a href="https://www.instagram.com/Pressatobegin_/">instagram.com/Pressatobegin_</a></p>

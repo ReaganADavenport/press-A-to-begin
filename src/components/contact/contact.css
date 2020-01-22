@@ -18,7 +18,12 @@
     color: white;
 }
 
-.Contact img{
+.Contact img {
     height: 50%;
     width: 25%;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: white;
 }

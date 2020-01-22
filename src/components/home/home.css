@@ -1,9 +1,229 @@
 .Home {
-    background-color: #B6C4D1;
+    background-color: white;
+    padding: 10px;
+}
+
+.Mission_Statement {
+    border: 4px solid #205585;
+    color: black;
+    font-family: 'Amiri', serif;
+}
+
+.Mission_Statement h1 {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.Mission_Statement img {
+    height: 50%;
+    padding: 5px;
+    width: 50%;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ContactButton {
+    background-color: white;
+    margin: 10px;
     padding: 5px;
 }
 
-.Home h1{
-    color: #205585;
+.ContactButton a{
+    background-color: #205585;
+    border: 4px solid #205585;
+    border-radius: 20%;
+    color: white;
     font-family: 'Amiri', serif;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.SectionTitle {
+    border: 4px solid #205585;
+    font-family: 'Amiri', serif;
+    margin: 20px;
+    padding: 3px;
+}
+
+.Chapters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Chapter1 {
+    margin: 3px;
+    padding: 3px;
+}
+
+.chap1 {
+    background-color: #4AA7CB;
+    border: 4px solid #4AA7CB;
+    height: 80px;
+    width: 80px;
+}
+
+.chap1 img{
+    width: 80px;
+}
+
+.ch1_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter2 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap2 {
+    background-color: rgb(20, 153, 20);
+    border: 4px solid rgb(20, 153, 20);
+    height: 80px;
+    width: 80px;
+}
+
+.chap2 img{
+    width: 80px;
+}
+
+.ch2_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter3 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap3 {
+    background-color: pink ;
+    border: 4px solid pink;
+    height: 80px;
+    width: 80px;
+}
+
+.chap3 img{
+    width: 80px;
+}
+
+.ch3_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter4 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap4 {
+    background-color: grey;
+    border: 4px solid grey;
+    height: 80px;
+    width: 80px;
+}
+
+.chap4 img{
+    width: 80px;
+}
+
+.ch4_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter5 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap5 {
+    background-color: yellow;
+    border: 4px solid yellow;
+    height: 80px;
+    width: 80px;
+}
+
+.chap5 img{
+    width: 80px;
+}
+
+.ch5_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter6 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap6 {
+    background-color: red;
+    border: 4px solid red;
+    height: 80px;
+    width: 80px;
+}
+
+.chap6 img{
+    width: 80px;
+}
+
+.ch6_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.Chapter7 {
+    margin: 3px;
+    padding: 3px;
+    width: 106px;
+}
+
+.chap7 {
+    background-color: rgb(128, 84, 172);
+    border: 4px solid rgb(128, 84, 172);
+    height: 80px;
+    width: 80px;
+}
+
+.chap7 img{
+    width: 80px;
+}
+
+.ch7_txt {
+    font-family: 'Amiri', serif;
+    width: 90px;
+}
+
+.aboutAuthor {
+    align-items: center;
+    border: 4px solid #205585;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Amiri', serif;
+    justify-content: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+.aboutAuthor img {
+    height: 50%;
+    width: 50%;
+    margin: 3px;
+    padding: 3px;
 }

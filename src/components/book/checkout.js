@@ -11,6 +11,5 @@ const Checkout = () => {
         </div>
     )
 }
-//<iframe allowfullscreen allow="fullscreen" style={{border:'none', width:'70%', height:400}} src="//e.issuu.com/embed.html?d=pressato_begin&hideIssuuLogo=true&u=scottdavenport4"></iframe>
 
 export default Checkout;

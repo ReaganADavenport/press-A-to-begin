@@ -2,20 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import Banner from '../images/Press_A_Banner.png';
+import Banner from '../images/pressAbanner.png';
+
 
 const LinkStyles = styled.ul`
-    align-content: space-between;
+    align-items: space-around;
     font-family: 'Amiri', serif;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     font-size: 20px;
+    padding-inline-start: 0px;
     
     a{
-        align-content: space-between;
+        align-items: space-around;
         display: flex;
-        margin: 0;
-        padding: 5px;
+        justify-content: center;
+        margin: 0 0;
+        padding: 10px 10px 10px 10px;
     }
 `
 
@@ -23,7 +27,11 @@ const LinkStyles = styled.ul`
 const Header = () => {
     return(
         <div className="navBar">
-        <img src={Banner} alt="Banner"/>
+            <div className="container1">
+                <img src={Banner} alt="Banner"/>
+                <p>Ministry That Speaks The Language Of This Generation</p>
+            </div>
+        
         <LinkStyles>
             <Link to='/'><b>Home</b></Link>
             <Link to='/contact'><b>Contact</b></Link>
