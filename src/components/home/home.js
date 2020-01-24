@@ -17,7 +17,7 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="Mission_Statement">
-            <h1>Engaging & Inspiring Youth Ministry</h1>
+            <h1>Fun and Engaging Youth Ministry</h1>
                 <div className="Textbox_1">
                     <p>Scott Davenport’s book, <i>Press A To Begin</i>, the first book in his Neptic Warrior series, uses gaming vernacular to speak to young people about the challenges they face every day. Blending timeless biblical wisdom and the early Church Fathers with concepts they use while gaming, <i>Press A To Begin</i> inspires young people to take control of their lives and to be more intentional in every decision they make.</p>
                 </div>
@@ -89,7 +89,7 @@ const Home = () => {
                         <div className="chap7"><img src={lostOnMap}/></div>
                             <div className="ch7_txt">
                                 <h4>Level 7: Lost on the Map</h4>
-                                <p>We all get lost in our lives at some point. They key is to know that we don’t have to stay lost.</p>
+                                <p>We all get lost in our lives at some point. The key is to know that we don’t have to stay lost.</p>
                             </div>
                     </div>
                 </div>
@@ -97,9 +97,10 @@ const Home = () => {
                 <div className="aboutAuthor">
                     <div className="Textbox_2">
                         <h2>About the Author</h2>
+                        <img src={Scott}/>
                         <p>Author and public speaker, Scott Davenport is a graduate of the University of Georgia. He spent 25 years in the music industry with Island Def Jam and Geffen Records working with artists such as Justin Bieber, Rihanna, Jay Z, Aerosmith, Kanye West, The Eagles, Guns and Roses, Bon Jovi, Mariah Carey, Nirvana and more. Scott is a member of the Annunciation Greek Orthodox Cathedral in Atlanta where he teaches Sunday school, adult catechesis (Road to Orthodoxy), and serves as Vice President of the Parish Council, chairman of the EHCYD committee and goal captain of the strategic plan for youth ministry. Scott also serves on the board for the Diakonia Retreat Center and the Annunciation Day School board. When he’s not devoting his time to the Church, Scott spends the rest of his time with his wife Lisa, two daughters Alexandra and Reagan and their two Great Danes Artemis and Misha.</p>
                     </div>
-                    <img src={Scott}/>
+                    
                 </div>
                 
 
