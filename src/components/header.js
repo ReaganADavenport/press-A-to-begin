@@ -31,17 +31,18 @@ class Header extends Component {
         return(
             <>
             <div>
-                <Media query= "(min-width: 700px)" render={() =>
-                (
-                    <img src={Banner_L} className="LargeBanner"/>
-                )}
-                />
-
-                <Media query= "(max-width: 699px" render={() =>
-                (
-                    <img src={Banner} className="Banner"/>
-                )}
-                />
+                <Media queries={{
+                    large: "(min-width: 700px)",
+                    small: "(max-width: 699px)"
+                }}>
+                    {matches => (
+                        <Fragment>
+                            {matches.large && <img src={Banner_L} className="LargeBanner"/>}
+                            {matches.small && <img src={Banner} className="Banner"/>}
+                        </Fragment>
+                    )}
+                </Media>
+                
             </div>
             <>
                 <div className="navBar">
