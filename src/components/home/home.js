@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import bookCover from '../../images/bookCover.png';
+import video from '../../video/Press_A_To_Begin_1.mp4';
 import pickingMain from '../../images/PickingMain.png';
 import grinding from '../../images/Grinding.png';
 import yourParty from '../../images/YourParty.png';
@@ -22,6 +23,9 @@ const Home = () => {
                     <p>Scott Davenport’s book, <i>Press A To Begin</i>, the first book in his Neptic Warrior series, uses gaming vernacular to speak to young people about the challenges they face every day. Blending timeless biblical wisdom and the early Church Fathers with concepts they use while gaming, <i>Press A To Begin</i> inspires young people to take control of their lives and to be more intentional in every decision they make.</p>
                 </div>
                 <img src={bookCover} alt="BookCover"/>
+                <video controls>
+                    <source src={video} type="video/mp4"></source>
+                </video>
             </div>
             <div className="Buttons">
                 <div className="ContactButton">
