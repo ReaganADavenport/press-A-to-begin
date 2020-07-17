@@ -17,6 +17,9 @@ import './home.css';
 const Home = () => {
     return(
         <div className="Home">
+            <div className="Tag_line">
+                <h1>Ministry That Speaks The Language Of This Generation</h1>
+            </div>
             <div className="Mission_Statement">
             <h1>Fun and Engaging Youth Ministry</h1>
                 <div className="Textbox_1">
@@ -27,6 +30,7 @@ const Home = () => {
                     <source src={video} type="video/mp4"></source>
                 </video>
             </div>
+
             <div className="Buttons">
                 <div className="ContactButton">
                     <Link to='/contact'><b>Contact for Seminar</b></Link>
@@ -36,9 +40,10 @@ const Home = () => {
                 </div>
             </div>
         
-            <div className="SectionTitle">
-                <h1>7 Lessons to Prepare for the Adventures to Come</h1>
-            </div>
+            <div className="Lessons">
+                <div className="SectionTitle">
+                    <h1>7 Lessons to Prepare for the Adventures to Come</h1>
+                </div>
 
                 <div className="Chapters">
                     <div className="Chapter1">
@@ -97,12 +102,14 @@ const Home = () => {
                             </div>
                     </div>
                 </div>
+            </div>
+
 
                 <div className="aboutAuthor">
                     <div className="Textbox_2">
                         <h2>About the Author</h2>
                         <img src={Scott}/>
-                        <p>Author and public speaker, Scott Davenport is a graduate of the University of Georgia. He spent 25 years in the music industry with Island Def Jam and Geffen Records working with artists such as Justin Bieber, Rihanna, Jay Z, Aerosmith, Kanye West, The Eagles, Guns and Roses, Bon Jovi, Mariah Carey, Nirvana and more. Scott is a member of the Annunciation Greek Orthodox Cathedral in Atlanta where he teaches Sunday school, adult catechesis (Road to Orthodoxy), and serves as Vice President of the Parish Council, chairman of the EHCYD committee and goal captain of the strategic plan for youth ministry. Scott also serves on the board for the Diakonia Retreat Center and the Annunciation Day School board. When he’s not devoting his time to the Church, Scott spends the rest of his time with his wife Lisa, two daughters Alexandra and Reagan and their two Great Danes Artemis and Misha.</p>
+                        <p>Author and public speaker, Scott Davenport is a graduate of the University of Georgia. He spent 25 years in the music industry with Island Def Jam and Geffen Records working with artists such as Justin Bieber, Rihanna, Jay Z, Aerosmith, Kanye West, The Eagles, Guns and Roses, Bon Jovi, Mariah Carey, Nirvana and more. Scott is a member of the Annunciation Greek Orthodox Cathedral in Atlanta where he teaches Sunday school, adult catechesis (Road to Orthodoxy), and serves as Vice President of the Parish Council, chairman of the EHCYD committee and goal captain of the strategic plan for youth ministry. Scott also serves on the board for the Diakonia Retreat Center and the Annunciation Day School board. When he’s not devoting his time to the Church, Scott spends the rest of his time with his wife Lisa, two daughters Alexandra and Reagan and their two Great Danes Beckett and Misha.</p>
                     </div>
                     
                 </div>

@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <Link to='/contact'><b>Contact</b></Link>
-            &copy; 2019 - T. Scott Davenport
+            &copy; 2020 - T. Scott Davenport
         </footer>
         )
 };
