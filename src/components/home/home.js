@@ -18,7 +18,8 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="Tag_line">
-                <h1>Ministry That Speaks The Language Of This Generation</h1>
+                <h1>Press A to Begin</h1>
+                <h2>Ministry for this Generation</h2>
             </div>
             <div className="Mission_Statement">
             <h1>Fun and Engaging Youth Ministry</h1>
