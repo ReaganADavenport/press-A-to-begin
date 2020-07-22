@@ -1,10 +1,7 @@
 import React, { Fragment, Component } from 'react';
-// import Media from 'react-media';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-// import logo from "../images/favicon.png";
-// import logo from "../images/PressAremote.png"
-import logo from "../images/PressAremoteBold.png"
+import logo from "../images/PressAremote-2.png"
 
 
 const LinkStyles = styled.ul`

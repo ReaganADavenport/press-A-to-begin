@@ -18,6 +18,10 @@
   padding-inline-start: 0px;
 }
 
+ul {
+  margin: 1px;
+}
+
 .navBar{
   color: white;
   display: flex;
@@ -33,12 +37,12 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-size: calc(15px + 2vmin);
+  font-size: calc(10px + 2vmin);
 }
 
 .navBar img{
   height: 50%;
-  width: 100px;
+  width: 133px;
 }
 
 .footer{
