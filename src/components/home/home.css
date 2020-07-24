@@ -28,9 +28,9 @@ h1 {
 
 .Tag_line .a{
     color:#d53f2c;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow_2 1s ease-in-out infinite alternate;
+    -moz-animation: glow_2 1s ease-in-out infinite alternate;
+    animation: glow_2 1s ease-in-out infinite alternate;
 }
 
 .Tag_line .to_begin{
@@ -42,13 +42,21 @@ h1 {
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0e1b62, 0 0 40px #0e1b62, 0 0 50px #0e1b62, 0 0 60px #0e1b62, 0 0 70px #0e1b62;
     }
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #fff, 0 0 30px #4e6af8, 0 0 40px #4e6af8, 0 0 50px #4e6af8, 0 0 60px #4e6af8, 0 0 70px #4e6af8, 0 0 80px #4e6af8;
     }
 }
 
+@-webkit-keyframes glow_2 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #952c1e, 0 0 40px #952c1e, 0 0 50px #952c1e, 0 0 60px #952c1e, 0 0 70px #952c1e;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #dd6556, 0 0 40px #dd6556, 0 0 50px #dd6556, 0 0 60px #dd6556, 0 0 70px #dd6556, 0 0 80px #dd6556;
+    }
+}
 
 
 .Mission_Statement {
