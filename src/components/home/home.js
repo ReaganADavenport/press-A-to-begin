@@ -18,11 +18,13 @@ const Home = () => {
     return(
         <div className="Home">
             <div className="Tag_line">
-                <h1> 
-                    <span class="press">Press </span>
-                    <span class="a">A </span>
-                    <span class="to_begin">to Begin</span>
-                </h1>
+                <Link to='/shop'>
+                    <h1> 
+                        <span class="press">Press </span>
+                        <span class="a">A </span>
+                        <span class="to_begin">to Begin</span>
+                    </h1>
+                </Link>
                 <h2>Ministry for this Generation</h2>
             </div>
             <div className="Mission_Statement">
@@ -30,7 +32,6 @@ const Home = () => {
                 <div className="Textbox_1">
                     <p>Scott Davenport’s book, <i>Press A To Begin</i>, the first book in his Neptic Warrior series, uses gaming vernacular to speak to young people about the challenges they face every day. Blending timeless biblical wisdom and the early Church Fathers with concepts they use while gaming, <i>Press A To Begin</i> inspires young people to take control of their lives and to be more intentional in every decision they make.</p>
                 </div>
-                <img src={bookCover} alt="BookCover"/>
                 <video controls>
                     <source src={video} type="video/mp4"></source>
                 </video>
